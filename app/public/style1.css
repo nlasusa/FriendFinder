@@ -1,0 +1,16 @@
+body {
+    background-image: url(friendfinderbr2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jumbotron {
+    margin-top: 40px;
+    background-color: #F6F0F0;
+    color: black;
+    opacity: 0.8;
+}
+
+#apilist {
+    float: right;
+}

@@ -14,10 +14,11 @@ app.use(bodyParser.text());
 app.use(bodyParser.json({type: "application/vnd.api+json"}));
 
 //apply routes
-app.use (express.static("app/public"));
+app.use(express.static("app/public"));
+
 //api routes
-require("./app/routing/api-routes.js")(app);
-require("./app/routing/html-routes.js")(app);
+require("./app/routing/api-routes")(app);
+require("./app/routing/html-routes")(app);
 
 //listening to port
 app.listen(port, () => console.log("Listening on port %s", port)); 

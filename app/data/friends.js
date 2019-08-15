@@ -1,8 +1,8 @@
-//array of objects
+// Data structure that will store the friends data
 var friends = [
     {
-        name: "Kate Sullivan",
-        photo: "image.png",
+        name: "Gigi Hadid",
+        photo: "https://images.app.goo.gl/Y551cYiYSrQAn7Dg7",
         scores: [
             5,
             1,
@@ -17,8 +17,8 @@ var friends = [
         ]
     },
     {
-        name: "Allie Hansen",
-        photo: "image.png",
+        name: "Blake Lively",
+        photo: "https://images.app.goo.gl/eqiUU7BwbcoHrbQA7",
         scores: [
             4,
             1,
@@ -33,8 +33,8 @@ var friends = [
         ]
     },
     {
-        name: "Alex Frantzis",
-        photo: "image.png",
+        name: "Leslie Mann",
+        photo: "https://images.app.goo.gl/1wxugF9CyHJcfb4R8",
         scores: [
             2,
             2,
@@ -49,8 +49,8 @@ var friends = [
         ]
     },
     {
-        name: "Lori Bridda",
-        photo: "image.png",
+        name: "Tina Fey",
+        photo: "https://images.app.goo.gl/TPrVhfeThfYXmYT48",
         scores: [
             5,
             2,
@@ -65,8 +65,8 @@ var friends = [
         ]
     },
     {
-        name: "Steph Favara",
-        photo: "image.png",
+        name: "Rebel Wilson",
+        photo: "https://images.app.goo.gl/pZh4ZAcQVPco2Ftg8",
         scores: [
             1,
             5,
@@ -81,8 +81,8 @@ var friends = [
         ]
     },
     {
-        name: "Wendy Witt",
-        photo: "image.png",
+        name: "Anna Kendrick",
+        photo: "https://images.app.goo.gl/XYReFti7CYRTSqjV7",
         scores: [
             3,
             3,
@@ -97,8 +97,8 @@ var friends = [
         ]
     },
     {
-        name: "Emily Christiansen",
-        photo: "image.png",
+        name: "Jennifer Lawrence",
+        photo: "https://images.app.goo.gl/DReiQ2wrDnjDaGx68",
         scores: [
             5,
             3,
@@ -114,6 +114,6 @@ var friends = [
     }
 ];
 
-//export module 
-module.export = friends;
+// Export to API Route
+module.exports = friends;
 

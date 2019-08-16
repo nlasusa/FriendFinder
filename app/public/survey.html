@@ -174,17 +174,17 @@
 </div>
 
 
- <!-- Materialize Modal Structure -->
+ <!-- Make Modal Structure -->
+ <div class="container">
         <div id="modal1" class="modal">
-          <div class="modal-content">
-            <h4>Meet Your New BFF!</h4>
+          <div class="modal-content"><br>
+            <h4>Your new best friend is...</h4>
             <h5 id="matchName"></h5>
-            <img id="matchPic" src="" alt="No Image" width =250px>
-          </div>
-        <div class="modal-footer">
-          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Done</a>
+            <img id="matchPic" src="" alt="No Image" width =400px heigh= 400px><br>
+          <button type="exit" id="exit"><i class="fas fa-times" aria-hidden="true"></i></button><br>
         </div>
       </div>
+</div>
 
       <!-- Grabs information and sends it to server -->
       <script type="text/javascript">
@@ -238,6 +238,10 @@
             alert("Please fill out ALL fields before submitting survey!")
         }
         // return false;
+
+        $("#exit").on('click', function(){
+        window.location = "home.html";    
+        });
     });
   </script>
     </body>

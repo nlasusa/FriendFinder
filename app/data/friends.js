@@ -2,7 +2,7 @@
 var friends = [
     {
         name: "Gigi Hadid",
-        photo: "https://images.app.goo.gl/Y551cYiYSrQAn7Dg7",
+        photo: "https://media.giphy.com/media/3o85xkNj6UxHVf0Byw/giphy.gif",
         scores: [
             5,
             1,
@@ -17,8 +17,8 @@ var friends = [
         ]
     },
     {
-        name: "Blake Lively",
-        photo: "https://images.app.goo.gl/eqiUU7BwbcoHrbQA7",
+        name: "Cameron Diaz",
+        photo: "https://media.giphy.com/media/SFzjGW2HvUlqg/giphy.gif",
         scores: [
             4,
             1,
@@ -34,12 +34,12 @@ var friends = [
     },
     {
         name: "Leslie Mann",
-        photo: "https://images.app.goo.gl/1wxugF9CyHJcfb4R8",
+        photo: "https://media.giphy.com/media/P6xhoZNiivU1W/giphy.gif",
         scores: [
             2,
             2,
             3,
-            3,
+            5,
             4,
             5,
             4,
@@ -50,7 +50,7 @@ var friends = [
     },
     {
         name: "Tina Fey",
-        photo: "https://images.app.goo.gl/TPrVhfeThfYXmYT48",
+        photo: "https://media.giphy.com/media/oy0ksrGIrPHUI/giphy.gif",
         scores: [
             5,
             2,
@@ -66,7 +66,7 @@ var friends = [
     },
     {
         name: "Rebel Wilson",
-        photo: "https://images.app.goo.gl/pZh4ZAcQVPco2Ftg8",
+        photo: "https://media.giphy.com/media/l41Yx9TdSmBwdDJD2/giphy.gif",
         scores: [
             1,
             5,
@@ -82,7 +82,7 @@ var friends = [
     },
     {
         name: "Anna Kendrick",
-        photo: "https://images.app.goo.gl/XYReFti7CYRTSqjV7",
+        photo: "https://media.giphy.com/media/cqrE8ND1Oe5JS/giphy.gif",
         scores: [
             3,
             3,
@@ -98,7 +98,7 @@ var friends = [
     },
     {
         name: "Jennifer Lawrence",
-        photo: "https://images.app.goo.gl/DReiQ2wrDnjDaGx68",
+        photo: "https://media.giphy.com/media/t3NDtNT17oxzO/giphy.gif",
         scores: [
             5,
             3,

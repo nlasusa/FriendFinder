@@ -1,3 +1,31 @@
 #apilist {
     float: right;
 }
+
+#exit {
+    width: 300px; 
+}
+
+#modal1 {
+    text-align: center;
+    margin: auto; 
+    width: 1200px; 
+    overflow: hidden; 
+    padding: 20px; 
+    border-radius: 25px;
+}
+
+#matchName {
+    text-align: center;
+}
+
+#matchPic {
+    margin: auto; 
+    border: 5px dotted hotpink;
+    font-size: 25px; 
+}
+
+#exit {
+    margin: auto; 
+    background-color: none; 
+}

@@ -40,6 +40,7 @@ In this activity you will be building a compatibility-based "Friend Finder" appl
   ![screenshot5](5.png)
   ![screenshot6](6.png)
   ![screenshot7](7.png)
+  ![screenshot8](8.png)
 
     
 

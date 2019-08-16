@@ -31,8 +31,15 @@ In this activity you will be building a compatibility-based "Friend Finder" appl
 -server.js  
 
 ## Screenshots to see how FriendFinder App works 
-*Going to the deployed heroku link: https://lasusan-friend-finder.herokuapp.com/home.html, you will see this home screen. The API list has my friends.js array. You can click Go to Survey for the questions to find your best bff match. 
+*Going to the deployed heroku link: https://lasusan-friend-finder.herokuapp.com/home.html, you will see this home screen. The API list has my friends.js array. You can click Go to Survey for the questions to find your bff match. 
  ![screenshot1](1.png)
+ *You will come to this survey question screen. Enter in your name and a link to your photo. Answer the questions to find you best friend match and enjoy the GIFs along the way!
+  ![screenshot2](2.png)
+  ![screenshot3](3.png)
+  ![screenshot4](4.png)
+  ![screenshot5](5.png)
+  ![screenshot6](6.png)
+  ![screenshot7](7.png)
 
     
 

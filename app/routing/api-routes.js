@@ -3,14 +3,14 @@ var friends = require("../data/friends");
 
 // Includes Two Routes
 module.exports = function(app) {
-  // A GET route with the url /api/friends. This will be used to display a JSON of all possible friends.
+  // GET route to display a JSON of all possible friends.
   app.get("/api/friends", function(req, res) {
     res.json(friends);
   });
 
-  // A POST routes /api/friends. This will be used to handle incoming survey results. This route will also be used to handle the compatibility logic.
+  // POST route for incoming survey results & compatibility logic.
   app.post("/api/friends", function(req, res) {
-    // The variable used to calculate the difference b/n the user's socres and the scores of each user
+    // Var to calculate diff of user's score and the score of each friend
     var totalDifference = 0;
 
     var bestMatch = {
@@ -31,6 +31,8 @@ module.exports = function(app) {
       photo: req.body.photo,
       scores: b
     };
+
+    //console log my user's score and info to make sure all is running ok 
     console.log("-------------------------------------");
     console.log("**NEW USER ADDED**");
     console.log("Name: " + userName);
@@ -46,6 +48,7 @@ module.exports = function(app) {
       console.log(friends[i].name);
       totalDifference = 0;
 
+      //console log each friend's score and info to make sure all is running ok 
       var bfriendScore = friends[i].scores.reduce((a, b) => a + b, 0);
       console.log("Total friend score " + bfriendScore);
       totalDifference += Math.abs(sum - bfriendScore);
@@ -63,7 +66,7 @@ module.exports = function(app) {
     friends.push(userData);
     console.log("According to your survey answers, your best match is:"); 
     console.log(bestMatch);
-    //The res.json method will return a JSON data with the user's match which was looped through frieds data array. 
+    //res.json method will return a JSON data with user's match 
     res.json(bestMatch);
   });
 };
